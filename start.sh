@@ -34,3 +34,4 @@ echo && read -p "  Vui Lòng Nhập Một Lựa Chọn 1 Hoặc 2..: " num
         *) echo -e "  Chỉ Có Thể Nhập 1 Hoặc 2..:"
         ;;
     esac
+banner
