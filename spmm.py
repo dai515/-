@@ -44,7 +44,7 @@ while True:
 	stt=stt+1
 	tg = datetime.now().strftime("%H:%M")
 	momo=requests.get(f"https://danganhduy.io/login-momo.php?phone={sđt}").json()
-	//viettelpay=requests.get(f"https://danganhduy.io/login-vtpay.php?phone={sđt}")
+	viettelpay=requests.get(f"https://danganhduy.io/login-vtpay.php?phone={sđt}")
 	if momo==0:
 		print("  \033[1;91mSố điện thoại này được chủ web bảo vệ")
 		exit()
