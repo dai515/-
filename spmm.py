@@ -14,7 +14,7 @@ except:
 try:
 	import NongHoangVu
 except:
-	print("  Đang cài thư viện NongHoangVu")
+	print("  Đang cài thư viện NguyenTrongDai")
 	os.system("pip install NongHoangVu")
 	print("  Đã cài xong vui lòng chạy lại tools")
 	exit()
@@ -23,10 +23,10 @@ from NongHoangVu import Center, Anime, Colors, Colorate
 a="""\033[1;96m
     ╔═════════════════════════════════════════════════════════╗
     ║                                                         ║
-    ║                      Trần Xuân Lợi                      ║
+    ║                      Nguyen Trong Dai                   ║
     ║                                                         ║
     ║ Copy nhớ ghi nguồn                                      ║
-    ║ Zalo: 0387640248                            Editor: Lù  ║
+    ║ Zalo: ..........                                        ║
     ╚═════════════════════════════════════════════════════════╝         
     ===============>>>>>> Tools Spam MoMo <<<<<<===============\n\n   """
 Anime.Fade(Center.Center(a), Colors.green_to_yellow, Colorate.Vertical, enter=True)
