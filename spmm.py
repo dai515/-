@@ -12,14 +12,14 @@ except:
 	print("  Đã cài xong vui lòng chạy lại tools")
 	exit()
 try:
-	import NongHoangVu
+	import NguyenTrongDai
 except:
 	print("  Đang cài thư viện NguyenTrongDai")
-	os.system("pip install NongHoangVu")
+	os.system("pip install NguyenTrongDai")
 	print("  Đã cài xong vui lòng chạy lại tools")
 	exit()
 from datetime import datetime, timedelta
-from NongHoangVu import Center, Anime, Colors, Colorate
+from NguyenTrongDai import Center, Anime, Colors, Colorate
 a="""\033[1;96m
     ╔═════════════════════════════════════════════════════════╗
     ║                                                         ║
