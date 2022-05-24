@@ -1,4 +1,4 @@
-banner(){
+//banner(){
 clear
 printf '\e[0m\e[1;91m [\e[1;97m~\e[1;91m]\e[1;93mNhà Phát Triển: Nguyen Trong Dai'
 printf '\n'
