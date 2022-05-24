@@ -4,20 +4,7 @@ def cls():
 		os.system("clear")
 	if os.name=="nt":
 		os.system("cls")
-try:
-	import requests
-except:
-	print("  Đang cài thư viện Requests")
-	os.system("pip install requests")
-	print("  Đã cài xong vui lòng chạy lại tools")
-	exit()
-try:
-	import NguyenTrongDai
-except:
-	print("  Đang cài thư viện NguyenTrongDai")
-	os.system("pip install NguyenTrongDai")
-	print("  Đã cài xong vui lòng chạy lại tools")
-	exit()
+
 from datetime import datetime, timedelta
 from NguyenTrongDai import Center, Anime, Colors, Colorate
 a="""\033[1;96m
