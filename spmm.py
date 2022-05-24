@@ -1,11 +1,32 @@
 import os, sys, json, os, sys, time
-
+def cls():
+	if os.name=="posix":
+		os.system("clear")
+	if os.name=="nt":
+		os.system("cls")
+try:
+	import requests
+except:
+	print("  Đang cài thư viện Requests")
+	os.system("pip install requests")
+	print("  Đã cài xong vui lòng chạy lại tools")
+	exit()
+try:
+	import NongHoangVu
+except:
+	print("  Đang cài thư viện NongHoangVu")
+	os.system("pip install NongHoangVu")
+	print("  Đã cài xong vui lòng chạy lại tools")
+	exit()
+from datetime import datetime, timedelta
+from NongHoangVu import Center, Anime, Colors, Colorate
+a="""\033[1;96m
     ╔═════════════════════════════════════════════════════════╗
     ║                                                         ║
-    ║                      Nguyen Trong Dai                      ║
+    ║                      Trần Xuân Lợi                      ║
     ║                                                         ║
     ║ Copy nhớ ghi nguồn                                      ║
-    ║ Zalo: ..........                                        ║
+    ║ Zalo: 0387640248                            Editor: Lù  ║
     ╚═════════════════════════════════════════════════════════╝         
     ===============>>>>>> Tools Spam MoMo <<<<<<===============\n\n   """
 Anime.Fade(Center.Center(a), Colors.green_to_yellow, Colorate.Vertical, enter=True)
