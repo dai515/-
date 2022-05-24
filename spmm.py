@@ -1,13 +1,5 @@
 import os, sys, json, os, sys, time
-def cls():
-	if os.name=="posix":
-		os.system("clear")
-	if os.name=="nt":
-		os.system("cls")
 
-from datetime import datetime, timedelta
-from NguyenTrongDai import Center, Anime, Colors, Colorate
-a="""\033[1;96m
     ╔═════════════════════════════════════════════════════════╗
     ║                                                         ║
     ║                      Nguyen Trong Dai                      ║
